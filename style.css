@@ -1,0 +1,70 @@
+.body {
+    margin-top: 70px;
+    text-align: center;
+}
+#h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.table {
+    text-align: justify;
+}
+.team {
+    margin: auto;
+    font-size: 25px;
+}
+.Score {
+    margin: auto;
+    width: 60vw;
+    font-size: 20px;
+}
+.team th, .Score th{
+    border: 2px solid #333;
+    background-color: #333;
+    color: #f2f2f2;
+}
+.Menu {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.Menu a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder ;
+}
+.Menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#activePage {
+    color:#333;
+    background-color:#f2f2f2; 
+}
+#image {
+    border-radius: 10px;
+}
+#image2 {
+    width: 50vw;
+    float: left;
+    margin-left: 20px;
+}
+.Text::first-letter {
+    font-size:xx-large;
+    font-style: italic;
+}
+.Text::first-line {
+    background-color:blanchedalmond;
+}
+.hr {
+    border: 3px solid black;
+    border-radius: 10px;
+}
